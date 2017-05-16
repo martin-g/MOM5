@@ -43,8 +43,6 @@ module fft_mod
 use platform_mod, only: R8_KIND, R4_KIND
 use      fms_mod, only: write_version_number,  &
                         error_mesg, FATAL
-
-use    fft99_mod, only: fft991, set99
 #ifndef SGICRAY
 #ifndef NAGFFT
 use    fft99_mod, only: fft991, set99
